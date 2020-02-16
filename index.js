@@ -4,7 +4,7 @@ const token = 'Token here'
 const bot = new TelBot(token,{polling:true});
 
 // Variations of Nice
-const variations = ['Nice',,'Nicee','Noice','ładny','niice','Obligatory Nice']
+const variations = ['Nice',,'Nicee','Noice','ładny','niice','Obligatory Nice', 'Umma nice']
 
 // On New Message
 bot.on('message',(msg) => {
