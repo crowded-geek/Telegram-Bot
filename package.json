@@ -1,0 +1,16 @@
+{
+  "name": "69-bot",
+  "version": "1.0.0",
+  "description": "Bot that messages nice when it detects '69' in the chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sayamss",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.8.2",
+    "node-telegram-bot-api": "^0.40.0",
+    "open-graph-scraper": "^3.6.2"
+  }
+}
