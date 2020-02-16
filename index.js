@@ -1,6 +1,6 @@
 const TelBot = require('node-telegram-bot-api')
 
-const token = ''
+const token = 'Token here'
 const bot = new TelBot(token,{polling:true});
 
 // Variations of Nice
