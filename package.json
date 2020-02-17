@@ -4,13 +4,17 @@
   "description": "Bot that messages nice when it detects '69' in the chat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "sayamss",
   "license": "ISC",
   "dependencies": {
     "firebase": "^7.8.2",
     "node-telegram-bot-api": "^0.40.0",
+    "now": "^17.0.3",
     "open-graph-scraper": "^3.6.2"
+  },
+  "engines": {
+    "node": "10.15.2"
   }
 }
